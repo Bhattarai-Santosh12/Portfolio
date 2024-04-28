@@ -86,6 +86,9 @@ nav ul li a:hover:after {
   margin-top: 20px;
   margin-bottom: 2%;
 }
+.span-class {
+  color: yellow;
+}
 /* About section  */
 
 #about {

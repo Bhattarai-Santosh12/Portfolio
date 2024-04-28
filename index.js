@@ -90,17 +90,4 @@ function sendMail() {
     },
     body: JSON.stringify(params),
   });
-  // const serviceID = "service_dmyhjmh";
-  // const templateID = "template_gd2pmd3s";
-
-  // emailjs
-  //   .send(serviceID, templateID, params)
-  //   .then((res) => {
-  //     document.getElementById("namee").value = "";
-  //     document.getElementById("email").value = "";
-  //     document.getElementById("message").value = "";
-  //     console.log(res);
-  //     alert("Your message sent successfully!!");
-  //   })
-  //   .catch((err) => console.log(err));
 }
