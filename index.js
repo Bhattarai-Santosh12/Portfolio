@@ -39,36 +39,6 @@ function closemenu() {
   }
 }
 
-//send email
-// function sendEmail() {
-//   Email.send({
-//     Host: "smtp.gmail.com",
-//     Username: "santoshbhattarai287@gmail.com",
-//     Password: "9817964232",
-//     To: "santoshbhattarai110@gmail.com",
-//     From: document.getElementById("email").value,
-//     Subject: "New contact form enquery",
-//     Body:
-//       "Name" +
-//       document.getElementById("name").value +
-//       "<br> Email" +
-//       document.getElementById("email").value +
-//       "<br> Message" +
-//       document.getElementById("message").value,
-//   }).then((message) => alert("Message Send Successfully  !!"));
-// }
-
-//attempt to send email
-// fetch("https://formsubmit.co/ajax/santoshbhattarai287@gmail.com", {
-//   method: "POST",
-//   headers: {
-//     "Content-Type": "application/json",
-//     Accept: "application/json",
-//   },
-//   body: JSON.stringify({ Name: namee, Email: email, Message: message }),
-// });
-
-// error
 btn = document.getElementById("sendMailBtn");
 btn.addEventListener("click", sendMail);
 function sendMail() {
